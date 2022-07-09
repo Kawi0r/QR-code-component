@@ -1,7 +1,68 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component {
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.qr {
+    background-image: url(./images/image-qr-code.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 320px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.description {
+    all: unset;
+}
+
+.description {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title {
+    height: 60px;
+    width: 300px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.7rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+#desc {
+    width: 310px;
+    margin: auto;
+    margin-top: 1.9rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    font-size: 1.2rem;
 }
